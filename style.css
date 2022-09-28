@@ -26,3 +26,17 @@
   font-size: 120px;
   font-weight: 600;
 }
+
+#focus {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  z-index: 1;
+  background: url(https://images.unsplash.com/photo-1493655430214-3dd7718460bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 50%;
+  top: calc(50% - 140px);
+  left: calc(50% - 140px);
+}
